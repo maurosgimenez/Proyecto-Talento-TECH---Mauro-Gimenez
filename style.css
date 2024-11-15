@@ -39,17 +39,10 @@ nav a:hover {
 }
 
 .productos {
-    color: azure;
-    font-size: 1em;
-    font-weight: 500;
-    
+    display: inline;
 }
 
-#producto-1 {
-    background-image: url(img/Caju.JPG);
-    
-}
-
-#producto-2 {
-    background-image: url(img/Caju.JPG);
+.foto-producto {
+    display: inline;
+    width: 25%;
 }
