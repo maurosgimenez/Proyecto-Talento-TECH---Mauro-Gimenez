@@ -1,17 +1,55 @@
 @font-face 
 {
     font-family: "Lato";
-    src: url("/fonts/Lato-regular.ttf") format("truetype");
+    src: url("fonts/Lato-regular.ttf") format("truetype");
 }
 
 *
 {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     font-family: Lato;
 }
 
-ul
-{
-    list-style: none;
-    text-decoration: none;
+nav ul {
+    list-style-type: none;
+    padding:0.7em;
 }
 
+nav li {
+    display: inline;
+    margin-left: 1.5em;
+}
+
+nav {
+    background-color: #8ada76;
+    font-size: 1.2em ;
+    font-weight: 400;
+    height: 2.4em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.productos {
+    color: azure;
+    font-size: 1em;
+    font-weight: 500;
+    
+}
+
+#producto-1 {
+    background-image: url(img/Caju.JPG);
+    
+}
+
+#producto-2 {
+    background-image: url(img/Caju.JPG);
+}
